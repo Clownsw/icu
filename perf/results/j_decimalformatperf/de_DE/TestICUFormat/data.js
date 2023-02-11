@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664568193648,
-  "repoUrl": "https://github.com/unicode-org/icu",
+  "lastUpdate": 1676142739015,
+  "repoUrl": "https://github.com/Clownsw/icu",
   "entries": {
     "Benchmark": [
       {
@@ -2578,6 +2578,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICUFormat",
             "value": 883.1199451380235,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "b20c97009c29a6c230b834a02dea93bc7c2c1e7b",
+          "message": "ICU-22194 Add User Guide doc for MessageFormat 2.0 tech preview impl\n\nSee #2313",
+          "timestamp": "2023-02-10T21:17:59-05:00",
+          "tree_id": "beea462ce3cb4c5c6e8d5e465956091c0c65bedc",
+          "url": "https://github.com/Clownsw/icu/commit/b20c97009c29a6c230b834a02dea93bc7c2c1e7b"
+        },
+        "date": 1676142731203,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICUFormat",
+            "value": 828.8622401507417,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
