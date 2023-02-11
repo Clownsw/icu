@@ -1,6 +1,6 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1664568600201,
-  "repoUrl": "https://github.com/unicode-org/icu",
+  "lastUpdate": 1676145973825,
+  "repoUrl": "https://github.com/Clownsw/icu",
   "entries": {
     "Benchmark": [
       {
@@ -9502,6 +9502,60 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestIcu_BinarySearch_usekey",
             "value": 25575816.0039,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "b20c97009c29a6c230b834a02dea93bc7c2c1e7b",
+          "message": "ICU-22194 Add User Guide doc for MessageFormat 2.0 tech preview impl\n\nSee #2313",
+          "timestamp": "2023-02-10T21:17:59-05:00",
+          "tree_id": "beea462ce3cb4c5c6e8d5e465956091c0c65bedc",
+          "url": "https://github.com/Clownsw/icu/commit/b20c97009c29a6c230b834a02dea93bc7c2c1e7b"
+        },
+        "date": 1676145964986,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestIcu_KeyGen_null",
+            "value": 458.7155,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_qsort_strcoll_null",
+            "value": 48416211.6051,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_qsort_usekey",
+            "value": 18780672.5985,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_BinarySearch_strcoll_null",
+            "value": 51102463.9171,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestIcu_BinarySearch_usekey",
+            "value": 21039821.0359,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
