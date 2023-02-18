@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676147427362,
+  "lastUpdate": 1676742480301,
   "repoUrl": "https://github.com/Clownsw/icu",
   "entries": {
     "Benchmark": [
@@ -10618,6 +10618,66 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestICU_NFD_Orig_Text",
             "value": 14.494,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "committer": {
+            "email": "elango@unicode.org",
+            "name": "Elango Cheran",
+            "username": "echeran"
+          },
+          "distinct": true,
+          "id": "bd065d4704bb212dfe3414c9d1ef105fb2a4df75",
+          "message": "ICU-22220 Automate BRS tasks\n\nSee #2318",
+          "timestamp": "2023-02-15T21:18:58-05:00",
+          "tree_id": "811adba53a48b4f444702294bf9c98c462633c37",
+          "url": "https://github.com/Clownsw/icu/commit/bd065d4704bb212dfe3414c9d1ef105fb2a4df75"
+        },
+        "date": 1676742469338,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestICU_NFC_NFD_Text",
+            "value": 21.2509,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFC_NFC_Text",
+            "value": 14.4652,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFC_Orig_Text",
+            "value": 14.6317,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_NFD_Text",
+            "value": 17.2185,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_NFC_Text",
+            "value": 18.3593,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          },
+          {
+            "name": "TestICU_NFD_Orig_Text",
+            "value": 18.3257,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
