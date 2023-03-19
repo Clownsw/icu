@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1676741167427,
+  "lastUpdate": 1679235864763,
   "repoUrl": "https://github.com/Clownsw/icu",
   "entries": {
     "Benchmark": [
@@ -2548,6 +2548,36 @@ window.BENCHMARK_DATA = {
           {
             "name": "TestCharsetDecoderICU",
             "value": 5.192174631505546,
+            "unit": "ns/iter",
+            "biggerIsBetter": false
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ccornelius@google.com",
+            "name": "Craig",
+            "username": "sven-oly"
+          },
+          "committer": {
+            "email": "cwcornelius@gmail.com",
+            "name": "Craig Cornelius",
+            "username": "sven-oly"
+          },
+          "distinct": true,
+          "id": "a518312ce2b6bf9e96451b73d6e890cf07409872",
+          "message": "ICU-22220 Add usimplenumberformatter and SimpleNumberFormatter to docmain.h",
+          "timestamp": "2023-03-17T21:03:29-07:00",
+          "tree_id": "e53af4b72ac1a4c23d81729cd4ae6a44d5bf5fa8",
+          "url": "https://github.com/Clownsw/icu/commit/a518312ce2b6bf9e96451b73d6e890cf07409872"
+        },
+        "date": 1679235854869,
+        "tool": "ndjson",
+        "benches": [
+          {
+            "name": "TestCharsetDecoderICU",
+            "value": 6.126403104620304,
             "unit": "ns/iter",
             "biggerIsBetter": false
           }
